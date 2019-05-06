@@ -8,6 +8,7 @@ class LoginForm extends Form {
     errors: {}
   };
 
+
   schema = {
     username: Joi.string()
       .required()
@@ -21,6 +22,8 @@ class LoginForm extends Form {
     // Call the server
     console.log("Submitted");
   };
+
+  // Upsource test
 
   render() {
     return (
